@@ -1,0 +1,11 @@
+1、安装Node.js环境
+2、使用命令提示符进入back-end文件夹，输入npm install来安装项目所需要的依赖cors、pg、child_process（使用完整压缩包则不需要）
+3、按照data文件夹中的word，正确配置PostGIS数据库并检查app.js文件中8-15行的信息是否与你所使用的数据库一致。
+4、配置python环境并安装datetime、requests、pandas、psycopg2等第三方库。
+5、使用命令提示符进入back-end文件夹，输入node app.js启动服务。
+6、如果端口没有冲突则默认为3000，如果端口冲突需要更改app.js中包含端口设置的部分。
+7、关闭服务器仅需关闭命令提示符或者ctrl+c。
+
+注意：
+1、Markdown文档中包含了详细的接口信息。
+2、推荐从data文件夹中的alldata.csv导入地震点数据到PostGIS中，直接使用python爬虫文件爬取完整地震数据可能会使得网站将IP拉黑。
